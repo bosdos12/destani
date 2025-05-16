@@ -1,4 +1,4 @@
-import { Header, SlideBar } from "@/components";
+import { Header, LandingPageVideoBanner, LandingTitleContainer, SlideBar } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,8 +8,13 @@ export default function Home() {
       
       <Header />
 
+      <LandingTitleContainer />
+
+      <LandingPageVideoBanner />
+
+
       <SlideBar />
-      
+
     </div>
   );
 }
