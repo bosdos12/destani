@@ -328,6 +328,107 @@ p.very-large {
 */
 
 
+
+
+/* 
+ ===== Mission and Vision START =====
+*/
+.mission_and_vision-container {
+  width: 90%;
+  height: 620px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mission_and_vision-container-mission_and_vision_cards-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mission_and_vision-container-mission_and_vision_cards-container-single_card {
+  width: 100%;
+  height: 260px;
+  border-radius: 16px;
+  box-shadow: 18px 15px 35px 0px #00000017;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mission_and_vision-container-mission_and_vision_cards-container-single_card > img {
+  width: 64px;
+  height: 64px;
+  margin-left: 1rem;
+}
+.mission_and_vision-container-mission_and_vision_cards-container-single_card > p {
+  margin-right: 10%;
+  margin-left: 1rem;
+}
+.mission_and_vision-container-photo_container {
+  width: 60%;
+  height: 620px;
+  border-radius: 16px;
+}
+.mission_and_vision-container-photo_container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+@media (max-width: 1440px) {
+  .mission_and_vision-container-photo_container {
+    width: 65%;
+  }
+}
+@media (max-width: 1280px) {
+  .mission_and_vision-container {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .mission_and_vision-container-mission_and_vision_cards-container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  .mission_and_vision-container-mission_and_vision_cards-container-single_card {
+    width: 45%;
+  }
+  .mission_and_vision-container-photo_container {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media (max-width: 1080px) {
+  .mission_and_vision-container-mission_and_vision_cards-container-single_card {
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .mission_and_vision-container-mission_and_vision_cards-container {
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .mission_and_vision-container-mission_and_vision_cards-container-single_card {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
+
+/* 
+ ===== Mission and Vision END =====
+*/
+
+
+
 /* 
  ===== Footer Start =====
 */
@@ -396,3 +497,4 @@ p.very-large {
 /* 
  ===== Footer End ======
 */
+

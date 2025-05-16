@@ -39,6 +39,34 @@ export default function Home() {
         </p>
       </div>
       {/* Missionvision */}
+      <div className="mission_and_vision-container">
+        <div className="mission_and_vision-container-mission_and_vision_cards-container">
+          <div className="mission_and_vision-container-mission_and_vision_cards-container-single_card">
+            <img src="/icons/mission.svg" alt="" />
+            <br />
+            <p className="x-large bold">Unsere <span style={{color: "#2555a1"}}>Mission</span></p>
+            <br />
+            <p className="medium gray">
+              Wir schaffen langlebige Lösungen mit handwerklicher Präzision.<br/>
+              Unser Ziel ist es, Räume zu verschönern und Werte zu erhalten
+            </p>
+          </div>
+          <div className="mission_and_vision-container-mission_and_vision_cards-container-single_card">
+            <img src="/icons/werte.svg" alt="" />
+            <br />
+            <p className="x-large bold">Unsere <span style={{color: "#2555a1"}}>Werte</span></p>
+            <br />
+            <p className="medium gray">
+              Wir stehen für Verlässlichkeit, Sauberkeit und Qualität.<br/>
+               Echte Leidenschaft fürs Handwerk treibt uns täglich an
+            </p>
+          </div>
+        </div>
+
+        <div className="mission_and_vision-container-photo_container">
+          <img src="/missionvisionpicture.jpg" alt="" />
+        </div>
+      </div>
 
 
 
