@@ -41,10 +41,10 @@ const page = () => {
                     </>,
                 ]}
                 images={[
-                    '/projects/fellbachringstrasse/1.jpg',
-                    '/projects/fellbachringstrasse/2.jpg',
-                    '/projects/fellbachringstrasse/3.jpg',
-                    '/projects/fellbachringstrasse/4.jpg',
+                    '/projects/fellbachringstrasse/1.webp',
+                    '/projects/fellbachringstrasse/2.webp',
+                    '/projects/fellbachringstrasse/3.webp',
+                    '/projects/fellbachringstrasse/4.webp',
                 ]}
             />
 

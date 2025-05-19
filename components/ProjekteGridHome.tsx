@@ -8,7 +8,7 @@ const projects = [
     title: 'Hallenbad Fellbach',
     location: 'Projekt 1',
     description: 'Sanierung und Fassadengestaltung des Hallenbads Fellbach mit WDVS - und Klinkerarbeiten. BV : NB 5 MFH mit 59 WE , Schillerstraße 70734 Fellbach. ',
-    image: '/projekte/projekte1.svg',
+    image: '/projekte/Projekte1.webp',
     projectLink: "/projekt-details/hallenbadfellbach"
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     title: 'Fellbach Ringstraße',
     location: 'Projekt 2',
     description: 'Fassadensanierung an der Fellbach Ringstraße mit WDVS-, Klinker- und Gerüstarbeiten auf mehreren tausend Quadratmetern. BV: MFH mit 60 WE, Ringstraße 6 Fellbach.',
-    image: '/projekte/projekte2.svg',
+    image: '/projekte/Projekte2.webp',
     projectLink: "/projekt-details/fellbachringstrasse"
   },
   {
@@ -24,7 +24,7 @@ const projects = [
     title: 'Leonberg',
     location: 'Projekt 3',
     description: 'Fassadenarbeiten an der Tiga Römerstraße in Leonberg mit energetischer Sanierung durch WDVS und Klinkerverkleidung.BV: 7 MFH / 82 WE+8 GE, Tiga Römerstraße, Leonberg.',
-    image: '/projekte/projekte3.svg',
+    image: '/projekte/Projekte3.webp',
     projectLink: "/projekt-details/leonberg"
   }
 ];

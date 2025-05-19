@@ -40,10 +40,10 @@ const page = () => {
                     </>,
                 ]}
                 images={[
-                    '/projects/schwenk/1.jpg',
-                    '/projects/schwenk/2.jpg',
-                    '/projects/schwenk/3.jpg',
-                    '/projects/schwenk/4.jpg',
+                    '/projects/schwenk/1.webp',
+                    '/projects/schwenk/2.webp',
+                    '/projects/schwenk/3.webp',
+                    '/projects/schwenk/4.webp',
                 ]}
             />
 

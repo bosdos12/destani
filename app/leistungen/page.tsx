@@ -18,7 +18,7 @@ const page = () => {
                 </>
               }
               description="Von Putzarbeiten bis Trockenbau: Entdecken Sie, wie wir Räume gestalten und Werte schaffen."
-              imageSrc="/uberuns/Hero1.svg"
+              imageSrc="/smallbanner.webp"
             /> 
             <ServicesCardLeistungen />
             <Contact />

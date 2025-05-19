@@ -484,6 +484,9 @@ p.very-large {
 
 /* === Projekte Grid Start */
 .projectsGrid {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   margin-top: 5rem;
   grid-template-columns: 1fr;
@@ -662,8 +665,15 @@ p.very-large {
 
 /* === Responsive (Contact) === */
 @media (max-width: 768px) {
+  
+  .contact {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
   .contactContainer {
     flex-direction: column;
+    margin: 4rem auto;
   }
 
   .contact-form {
@@ -756,3 +766,4 @@ p.very-large {
 .projectDescription{
   font-family: InterRegular;
 }
+/* === Project Grid Font END === */

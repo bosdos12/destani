@@ -41,10 +41,10 @@ const page = () => {
                     </>,
                 ]}
                 images={[
-                    '/projects/bietigheimbissingen/1.jpg',
-                    '/projects/bietigheimbissingen/2.jpg',
-                    '/projects/bietigheimbissingen/3.jpg',
-                    '/projects/bietigheimbissingen/4.jpg',
+                    '/projects/bietigheimbissingen/1.webp',
+                    '/projects/bietigheimbissingen/2.webp',
+                    '/projects/bietigheimbissingen/3.webp',
+                    '/projects/bietigheimbissingen/4.webp',
                 ]}
             />
 

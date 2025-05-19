@@ -18,7 +18,7 @@ const page = () => {
                     </>
                 }
                 description="Modernes Wohnprojekt mit hochwertigen Fassadenarbeiten und kompletten Malerarbeiten."
-                imageSrc="/projekte/Video.svg"
+                imageSrc="/projekte/Video.webp"
             />
             <ProjectDescription
                 title="Projektbeschreibung"
@@ -41,10 +41,10 @@ const page = () => {
                     </>,
                 ]}
                 images={[
-                    '/Projekt-Detail/ProjektUno/Projekte1.svg',
-                    '/Projekt-Detail/ProjektUno/Projekte2.svg',
-                    '/Projekt-Detail/ProjektUno/Projekte3.svg',
-                    '/Projekt-Detail/ProjektUno/Projekte4.svg',
+                    '/Projekt-Detail/ProjektUno/Projekte1.webp',
+                    '/Projekt-Detail/ProjektUno/Projekte2.webp',
+                    '/Projekt-Detail/ProjektUno/Projekte3.webp',
+                    '/Projekt-Detail/ProjektUno/Projekte4.webp',
                 ]}
             />
 

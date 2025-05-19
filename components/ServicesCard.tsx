@@ -17,6 +17,7 @@ const services = [
     icon: '/homepagegrid/maingrid3.svg',
     title: 'Putzarbeiten',
     description: 'Hochwertige Innen- und Außenputze für ein perfektes Oberflächenbild.',
+    isHighlighted: true
   },
   {
     icon: '/homepagegrid/maingrid4.svg',
@@ -27,6 +28,7 @@ const services = [
     icon: '/homepagegrid/maingrid5.svg',
     title: 'Trockenbau',
     description: 'Flexible Raumgestaltung mit modernen Trockenbausystemen.',
+    isHighlighted: true
   },
   {
     icon: '/homepagegrid/maingrid6.svg',

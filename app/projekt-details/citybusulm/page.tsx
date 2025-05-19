@@ -44,10 +44,10 @@ const page = () => {
                     </>,
                 ]}
                 images={[
-                    '/projects/citybusulm/1.png',
-                    '/projects/citybusulm/2.png',
-                    '/projects/citybusulm/3.png',
-                    '/projects/citybusulm/4.png',
+                    '/projects/citybusulm/1.webp',
+                    '/projects/citybusulm/2.webp',
+                    '/projects/citybusulm/3.webp',
+                    '/projects/citybusulm/4.webp',
                 ]}
             />
 

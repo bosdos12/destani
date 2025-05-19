@@ -17,6 +17,7 @@ const services = [
     icon: '/homepagegrid/maingrid3.svg',
     title: 'Putzarbeiten',
     description: 'Unsere Putzarbeiten sorgen nicht nur für ein ästhetisches Erscheinungsbild, sondern erfüllen auch funktionale Zwecke wie Feuchtigkeitsregulierung und Wärmeschutz. Ob Reibeputz, Glattputz oder Strukturputz – wir bieten vielfältige Techniken für innen und außen. Durch präzise Ausführung und hochwertige Materialien garantieren wir langlebige und gleichmäßige Oberflächen. Dabei gehen wir stets auf die individuellen Anforderungen Ihres Projekts ein.',
+    isHighlighted: true, 
   },
   {
     icon: '/homepagegrid/maingrid4.svg',
@@ -24,15 +25,16 @@ const services = [
     description: 'Ein professionell angebrachtes Wärmedämmverbundsystem (WDVS) verbessert die Energieeffizienz Ihres Gebäudes erheblich. Durch reduzierte Wärmeverluste sparen Sie nicht nur Heizkosten, sondern leisten auch einen aktiven Beitrag zum Klimaschutz. Wir beraten Sie umfassend zur Auswahl des passenden Dämmmaterials und sorgen für eine fachgerechte Ausführung. So bleibt Ihr Zuhause im Winter warm und im Sommer angenehm kühl.',
   },
   {
-    icon: '/homepagegrid/maingrid5.svg',
-    title: 'Trockenbau',
-    description: 'Unsere Malerarbeiten verleihen Wänden und Fassaden neues Leben. Wir arbeiten mit hochwertigen, umweltfreundlichen Farben und bieten ein breites Spektrum an Techniken und Farbkonzepten. Egal ob Innenräume, Fassaden oder dekorative Oberflächen – wir sorgen für saubere Ausführung, gleichmäßige Ergebnisse und langlebige Wirkung. So entsteht eine Atmosphäre, in der man sich wohlfühlt.',
-  },
-  {
     icon: '/homepagegrid/maingrid6.svg',
     title: 'Malerarbeiten',
     description: 'Trockenbau bietet vielseitige Möglichkeiten zur Raumaufteilung und Gestaltung – schnell, sauber und kosteneffizient. Ob Trennwände, Deckenabhängungen oder Schallschutzlösungen – wir planen und realisieren maßgeschneiderte Konstruktionen. Mit präziser Ausführung und hochwertigen Materialien schaffen wir funktionale und optisch ansprechende Ergebnisse. Ideal für Neubauten, Umbauten oder Renovierungen.',
+    isHighlighted: true
   },
+  {
+    icon: '/homepagegrid/maingrid5.svg',
+    title: 'Trockenbau',
+    description: 'Unsere Malerarbeiten verleihen Wänden und Fassaden neues Leben. Wir arbeiten mit hochwertigen, umweltfreundlichen Farben und bieten ein breites Spektrum an Techniken und Farbkonzepten. Egal ob Innenräume, Fassaden oder dekorative Oberflächen – wir sorgen für saubere Ausführung, gleichmäßige Ergebnisse und langlebige Wirkung. So entsteht eine Atmosphäre, in der man sich wohlfühlt.',
+  }
 ]
 
 const ServicesCardLeistungen = () => {

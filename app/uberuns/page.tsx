@@ -20,10 +20,10 @@ const uberuns = () => {
             </>
           }
           description="Seit 2002 stehen wir für echtes Handwerk, höchste Qualität und zuverlässige Umsetzung."
-          imageSrc="/smallbanner.jpg"
-        />  
+          imageSrc="/smallbanner.webp"
+        />
         <InfoCards />
-        <Image src="/smallbanner.jpg" width={100} height={100} alt="uberuns" className='Image2' />
+        <Image src="/smallbanner.webp" width={1500} height={1500} alt="uberuns" className='Image2' />
         <Description />
         <Contact />
       </div>

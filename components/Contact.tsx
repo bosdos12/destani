@@ -4,14 +4,18 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='contact' id='kontaktform'>
-          <p className='title'><b style={{
+
+
+          <p className="very-large"><b style={{
             color: "#2555a1"
           }}>Kontaktieren</b> Sie uns!</p>
-          <p className='contactText'>
-            Sie haben Fragen oder möchten ein Projekt mit uns starten?
+          <br />
+        <p className="large gray">
+          Sie haben Fragen oder möchten ein Projekt mit uns starten?
             <br/>
             Wir freuen uns auf Ihre Nachricht und beraten Sie gerne persönlich
-          </p>
+        </p>
+
           <div className='contactContainer'>
             <div className='contactImage'>
               <Image src="/uberuns/contactImg.svg" width={20} height={20} alt="contact" className='img' />

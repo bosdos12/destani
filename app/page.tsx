@@ -77,7 +77,7 @@ export default function Home() {
         </div>
 
         <div className="mission_and_vision-container-photo_container">
-          <img src="/missionvisionpicture.jpg" alt="" />
+          <img src="/missionvisionpicture.webp" alt="" />
         </div>
       </div>
 

@@ -41,10 +41,10 @@ const page = () => {
                     </>,
                 ]}
                 images={[
-                    '/projects/korntalmunchingen/1.jpg',
-                    '/projects/korntalmunchingen/2.jpg',
-                    '/projects/korntalmunchingen/3.jpg',
-                    '/projects/korntalmunchingen/4.jpg',
+                    '/projects/korntalmunchingen/1.webp',
+                    '/projects/korntalmunchingen/2.webp',
+                    '/projects/korntalmunchingen/3.webp',
+                    '/projects/korntalmunchingen/4.webp',
                 ]}
             />
 

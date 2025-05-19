@@ -26,10 +26,15 @@ p b {
 
 /* === Hero Image === */
 .heroImage {
-  width: 1500px;
-  margin-top: 3rem;
+  margin-top: 1rem;
   max-width: 100%;
   height: 450px;
+  object-fit: cover;
+  border-radius: 32px;
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* === END of Hero  */
@@ -149,8 +154,14 @@ p b {
 
 /* === Responsive (Contact) === */
 @media (max-width: 768px) {
+  .contact {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
   .contactContainer {
     flex-direction: column;
+    margin: 4rem auto;
   }
 
   .contact-form {

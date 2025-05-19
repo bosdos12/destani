@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -19,19 +20,23 @@ const Footer = () => {
             <p className="x-large bold white">Schnellzugriffe</p>
             <br />
             <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}>Projekte</a>
+              <a href="/" style={{color: "white", textDecoration: "none"}}>Startseite</a>
             </p>
             <br />
             <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}>Leistungen</a>
+              <a href="/uberuns" style={{color: "white", textDecoration: "none"}}>Über Uns</a>
             </p>
             <br />
             <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}>Über Uns</a>
+              <a href="/leistungen" style={{color: "white", textDecoration: "none"}}>Leistungen</a>
             </p>
             <br />
             <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}>Impressum</a>
+              <a href="/projekte" style={{color: "white", textDecoration: "none"}}>Projekte</a>
+            </p>
+            <br />
+            <p className="medium white linktext">
+              <a href="#kontaktform" style={{color: "white", textDecoration: "none"}}>Kontakt</a>
             </p>
             <br />
             <p className="medium white linktext">
@@ -44,18 +49,18 @@ const Footer = () => {
             <p className="x-large bold white">Kontaktieren Sie uns</p>
             <br />
             <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}><i className="fa-solid fa-envelope"
+              <a href="mailto:info@maler-destani.de" style={{color: "white", textDecoration: "none"}}><i className="fa-solid fa-envelope"
                 style={{marginRight: "6px"}}></i> info@maler-destani.de</a>
             </p>
             <br />
             <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}><i className="fa-solid fa-location-dot"
+              <a href="https://maps.app.goo.gl/vSTurYrutx3Q6vXx7" style={{color: "white", textDecoration: "none"}}><i className="fa-solid fa-location-dot"
                 style={{marginRight: "6px"}}></i> Senefelderstrasse 7 <br />70736 Fellbach-Schmiden</a>
             </p>
             <br />
             <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}><i className="fa-solid fa-phone"
-                style={{marginRight: "6px"}}></i> 0711 – 510 47 10</a>
+              <a href="tel:+497115104710" style={{color: "white", textDecoration: "none"}}><i className="fa-solid fa-phone"
+                style={{marginRight: "6px"}}></i> 0711 - 510 47 10</a>
             </p>
           </div>
 
@@ -65,12 +70,12 @@ const Footer = () => {
             <br />
 
             <div className="footer-social_media_icons-container">
-              <div className="footer-social_media_icons-container-single_icon_container">
+              <Link href="https://www.instagram.com/destanimalergmbh" className="footer-social_media_icons-container-single_icon_container">
                 <p className="medium blue"><i className="fa-brands fa-instagram"></i></p>
-              </div>
-              <div className="footer-social_media_icons-container-single_icon_container">
+              </Link>
+              <Link href="https://www.facebook.com/share/1AYGV616Ha/" className="footer-social_media_icons-container-single_icon_container">
                 <p className="medium blue"><i className="fa-brands fa-facebook"></i></p>
-              </div>
+              </Link>
             </div>
           </div>
 

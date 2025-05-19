@@ -18,7 +18,7 @@ const page = () => {
                     </>
                 }
                 description="Ein Einblick in unsere Arbeit: professionell ausgeführt, dauerhaft überzeugend."
-                imageSrc="/projekte/Video.svg"
+                imageSrc="/projekte/Video.webp"
             />
             <ProjekteGrid />
             <Contact />

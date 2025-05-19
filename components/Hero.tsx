@@ -11,13 +11,16 @@ type HeroProps = {
 const Hero = ({ heading, description, imageSrc, isVideo }: HeroProps) => {
   return (
     <div className='heroContainer'>
-      <p className="heroText">{heading}</p>
-      <p style={{
-        marginLeft: "5%"
-      }}>{description}</p>
+      <div className="landing_title_container">
+        <p className="very-large">{heading}</p>
+        <br />
+        <p className="large gray">{description}</p>
+      </div>
+
+    
 
       {!isVideo ? (
-        <Image src={imageSrc} width={1} height={1} alt="Hero Section" className='heroImage' />
+        <Image src={imageSrc} width={1500} height={1500} alt="Hero Section" className='heroImage' />
       ) : (
         <div className="landingpage_video_banner">
           <video

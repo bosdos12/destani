@@ -42,10 +42,10 @@ const page = () => {
                     </>,
                 ]}
                 images={[
-                    '/projects/hallenbadfellbach/1.jpg',
-                    '/projects/hallenbadfellbach/2.jpg',
-                    '/projects/hallenbadfellbach/3.jpg',
-                    '/projects/hallenbadfellbach/4.jpg',
+                    '/projects/hallenbadfellbach/1.webp',
+                    '/projects/hallenbadfellbach/2.webp',
+                    '/projects/hallenbadfellbach/3.webp',
+                    '/projects/hallenbadfellbach/4.webp',
                 ]}
             />
 

@@ -37,10 +37,10 @@ const page = () => {
                     </>,
                 ]}
                 images={[
-                    '/projects/neubauholzgerlingen/1.jpg',
-                    '/projects/neubauholzgerlingen/2.jpg',
-                    '/projects/neubauholzgerlingen/3.jpg',
-                    '/projects/neubauholzgerlingen/4.jpg',
+                    '/projects/neubauholzgerlingen/1.webp',
+                    '/projects/neubauholzgerlingen/2.webp',
+                    '/projects/neubauholzgerlingen/3.webp',
+                    '/projects/neubauholzgerlingen/4.webp',
                 ]}
             />
 

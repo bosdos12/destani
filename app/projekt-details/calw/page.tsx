@@ -39,10 +39,10 @@ const page = () => {
                     </>,
                 ]}
                 images={[
-                    '/projects/calw/1.jpg',
-                    '/projects/calw/2.jpg',
-                    '/projects/calw/3.jpg',
-                    '/projects/calw/4.jpg',
+                    '/projects/calw/1.webp',
+                    '/projects/calw/2.webp',
+                    '/projects/calw/3.webp',
+                    '/projects/calw/4.webp',
                 ]}
             />
 
