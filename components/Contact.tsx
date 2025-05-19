@@ -23,7 +23,7 @@ const Contact = () => {
                 <p>Email</p>
                 <input type="email" id="email" placeholder="Geben Sie Ihre E-Mail-Adresse ein" />
                 <p>Nachricht</p>
-                <input type="text" id="email" placeholder="Geben Sie Ihre E-Mail-Adresse ein" />
+                <input type="text" id="message" placeholder="Schrieben Sie Ihre Nachricht" />
                 <button type="submit">Senden Sie Ihre Nachricht</button>
               </form>
             </div>

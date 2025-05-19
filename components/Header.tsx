@@ -24,13 +24,15 @@ const Header = ({
 
   return (
     <div className="header">
-        <div className="header-logo_container">
+        <div className="header-logo_container"
+          onClick={() => window.location.href = "/"}
+        >
           <img src="/destanilogo.svg" alt="" className="header-logo" />
         </div>
 
         <div className="header-navbuttons_container">
 
-          <Link href="" className={`header-navbuttons_container-single_navbutton ${activeButtonList[0]}`}
+          <Link href="/" className={`header-navbuttons_container-single_navbutton ${activeButtonList[0]}`}
             style={{textDecoration: "none"}}
           >
             <p className="large">Startseite</p>

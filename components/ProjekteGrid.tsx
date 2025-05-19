@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import Image from 'next/image';
 
@@ -8,6 +9,7 @@ const projects = [
     location: 'Projekt 1',
     description: 'Sanierung und Fassadengestaltung des Hallenbads Fellbach mit WDVS- und Klinkerarbeiten. BV: NB 5 MFH mit 59 WE, Schillerstraße 70734 Fellbach.',
     image: '/projekte/projekte1.svg',
+    projectLink: "/projekt-details/hallenbadfellbach"
   },
   {
     id: 2,
@@ -15,6 +17,7 @@ const projects = [
     location: 'Projekt 2',
     description: 'Fassadensanierung an der Fellbach Ringstraße mit WDVS-, Klinker- und Gerüstarbeiten auf mehreren tausend Quadratmetern. BV: MFH mit 60 WE, Ringstraße 6 Fellbach.',
     image: '/projekte/projekte2.svg',
+    projectLink: "/projekt-details/fellbachringstrasse"
   },
   {
     id: 3,
@@ -22,6 +25,7 @@ const projects = [
     location: 'Projekt 3',
     description: 'Fassadenarbeiten an der Tiga Römerstraße in Leonberg mit energetischer Sanierung durch WDVS und Klinkerverkleidung.BV: 7 MFH / 82 WE+8 GE, Tiga Römerstraße, Leonberg.',
     image: '/projekte/projekte3.svg',
+    projectLink: "/projekt-details/leonberg"
   },
   {
     id: 4,
@@ -29,6 +33,7 @@ const projects = [
     location: 'Projekt 4',
     description: 'Ein umfassendes Fassadenprojekt am Gesundheitscampus mit vielfältigen Putz- und Dämmarbeiten – aktuell im Bau.Gesundheitscampus, Mildred-ScheelStraße, 75365 Calw',
     image: '/projekte/projekte4.svg',
+    projectLink: "/projekt-details/calw"
   },
   {
     id: 5,
@@ -36,6 +41,7 @@ const projects = [
     location: 'Projekt 5',
     description: 'Fassaden- und Dämmarbeiten für den Erweiterungsbau der Firma Schwenk in Fellbach – mit markanter schwarzer Außenfassade. Schwenk-Erweiterung-Produktion-Verwaltung Esslinger Straße, Fellbach',
     image: '/projekte/projekte5.svg',
+    projectLink: "/projekt-details/schwenk"
   },
   {
     id: 6,
@@ -43,6 +49,7 @@ const projects = [
     location: 'Projekt 6',
     description: 'Fassadensanierung und -gestaltung an einem Wohnbauprojekt mit 18 Mehrfamilienhäusern in Bietigheim-Bissingen – inklusive WDVS, Klinker und Fensterbankmontage. 18MW Stuttgarter Straße 129, Bietigheim-Bissingen',
     image: '/projekte/projekte6.svg',
+    projectLink: "/projekt-details/bietigheimbissingen"
   },
   {
     id: 7,
@@ -50,6 +57,7 @@ const projects = [
     location: 'Projekt 7',
     description: 'Umfassende Fassaden- und Gerüstarbeiten an mehreren Mehrfamilienhäusern im neuen Wohnviertel von Korntal-Münchingen.Y8 NB 4 MFH Dienkelstraße 2, 70825 KorntalMünchingen.',
     image: '/projekte/projekte7.svg',
+    projectLink: "/projekt-details/korntalmunchingen"
   },
   {
     id: 8,
@@ -57,6 +65,7 @@ const projects = [
     location: 'Projekt 8',
     description: 'Das Neubauprojekt Citybus in Ulm befindet sich aktuell in der Ausführung – mit energieeffizientem WDVS, modernen Verkleidungssystemen und Tiefgaragen-Dämmung.',
     image: '/projekte/projekte8.svg',
+    projectLink: "/projekt-details/citybusulm"
   },
   {
     id: 9,
@@ -64,6 +73,7 @@ const projects = [
     location: 'Projekt 9',
     description: 'Komplette Fassadengestaltung für ein Wohn- und Geschäftshaus in Holzgerlingen mit energetischem WDVS und stilvoller Klinkerverblendung.',
     image: '/projekte/projekte9.svg',
+    projectLink: "/projekt-details/neubauholzgerlingen"
   },
 ];
 
@@ -77,7 +87,7 @@ const ProjekteGrid = () => {
           <p className="cardSubtitle">{proj.location}</p>
           <h3 className="cardTitle">{proj.title}</h3>
           <p className="cardDescription">{proj.description}</p>
-          <button className="seeMore">Mehr Sehen</button>
+          <button className="seeMore" onClick={() => window.location.href = proj.projectLink}>Mehr Sehen</button>
           </div>
         </div>
       ))}

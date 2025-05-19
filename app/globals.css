@@ -87,6 +87,7 @@ p.very-large {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 .header-navbuttons_container {
   width: fit-content;
@@ -684,6 +685,8 @@ p.very-large {
   padding-top: 64px;
   padding-bottom: 64px;
   background-color: #2555a1;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
 }
 .footer-navigation_columns_container {
   width: 90%;
