@@ -1,0 +1,206 @@
+/* === General Container === */
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  /* max-width: 1728px; */
+  padding: clamp(1rem, 5vw, 6rem);
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* === End: General Container === */
+
+/* === Hero Heading === */
+.heroText {
+  font-size: clamp(2rem, 5vw, 3.625rem);
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  line-height: 1.2;
+}
+/* === End: Hero Heading === */
+
+/* === Emphasized text in <b> === */
+p b {
+  color: #2555a1;
+}
+
+/* === Hero Image === */
+.heroImage {
+  width: auto;
+  min-width: 100%;
+  margin-top: 3rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/* === END of Hero === */
+
+/* === Projecte Description === */
+.projectDescription {
+  padding: 3rem 1.5rem;
+  font-family: InterRegular;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projectTitle {
+  color: #2555a1;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.projectText p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.projectText p b {
+  font-weight: 600;
+}
+
+.projectImagesGrid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Bilgisayarda 2 görsel */
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .projectImagesGrid {
+    grid-template-columns: 1fr; /* Telefonda 1 görsel */
+  }
+}
+
+.imageWrapper {
+  width: 100%;
+  aspect-ratio: 1/1; /* Kare görünüm */
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* === Contact Us Section === */
+.contact {
+  margin-top: 8rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+.contact .title {
+  font-size: clamp(2rem, 5vw, 3.625rem);
+}
+.contact .contactText {
+  color: #525252;
+  font-size: 20px;
+}
+
+/* === Contact Container === */
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  margin: 8rem auto;
+}
+
+/* === Left Image === */
+.contactImage {
+  flex: 1;
+  min-width: 300px;
+}
+.contactImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* === Right Form === */
+.contact-form {
+  flex: 1;
+  background-color: #2953a4;
+  color: white;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+
+.contact-form p {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.66rem;
+  margin-left: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem 1.25rem;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 52px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-form button {
+  margin-top: 1rem;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 100px;
+  background-color: white;
+  color: #2953a4;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #f0f0f0;
+}
+
+/* === Responsive (Contact) === */
+@media (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    padding: 2rem 1.5rem;
+  }
+
+  .contact-form form {
+    max-width: 100%;
+  }
+}
+/* === End Contact Section */
