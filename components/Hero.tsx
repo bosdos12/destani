@@ -10,7 +10,7 @@ type HeroProps = {
 
 const Hero = ({ heading, description, imageSrc, isVideo }: HeroProps) => {
   return (
-    <div>
+    <div className='heroContainer'>
       <p className="heroText">{heading}</p>
       <p style={{
         marginLeft: "5%"
