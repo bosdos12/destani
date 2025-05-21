@@ -27,13 +27,13 @@ const services = [
   {
     icon: '/homepagegrid/maingrid6.svg',
     title: 'Malerarbeiten',
-    description: 'Trockenbau bietet vielseitige Möglichkeiten zur Raumaufteilung und Gestaltung – schnell, sauber und kosteneffizient. Ob Trennwände, Deckenabhängungen oder Schallschutzlösungen – wir planen und realisieren maßgeschneiderte Konstruktionen. Mit präziser Ausführung und hochwertigen Materialien schaffen wir funktionale und optisch ansprechende Ergebnisse. Ideal für Neubauten, Umbauten oder Renovierungen.',
+    description: 'Unsere Malerarbeiten verleihen Wänden und Fassaden neues Leben. Wir arbeiten mit hochwertigen, umweltfreundlichen Farben und bieten ein breites Spektrum an Techniken und Farbkonzepten. Egal ob Innenräume, Fassaden oder dekorative Oberflächen – wir sorgen für saubere Ausführung, gleichmäßige Ergebnisse und langlebige Wirkung. So entsteht eine Atmosphäre, in der man sich wohlfühlt.',
     isHighlighted: true
   },
   {
     icon: '/homepagegrid/maingrid5.svg',
     title: 'Trockenbau',
-    description: 'Unsere Malerarbeiten verleihen Wänden und Fassaden neues Leben. Wir arbeiten mit hochwertigen, umweltfreundlichen Farben und bieten ein breites Spektrum an Techniken und Farbkonzepten. Egal ob Innenräume, Fassaden oder dekorative Oberflächen – wir sorgen für saubere Ausführung, gleichmäßige Ergebnisse und langlebige Wirkung. So entsteht eine Atmosphäre, in der man sich wohlfühlt.',
+    description: 'Trockenbau bietet vielseitige Möglichkeiten zur Raumaufteilung und Gestaltung – schnell, sauber und kosteneffizient. Ob Trennwände, Deckenabhängungen oder Schallschutzlösungen – wir planen und realisieren maßgeschneiderte Konstruktionen. Mit präziser Ausführung und hochwertigen Materialien schaffen wir funktionale und optisch ansprechende Ergebnisse. Ideal für Neubauten, Umbauten oder Renovierungen.',
   }
 ]
 

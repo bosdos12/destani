@@ -14,7 +14,7 @@ const page = () => {
             <Hero
                 heading={
                     <>
-                    Projekt <b>Hallenbad Fellbach</b> – Fassadengestaltung mit Qualität
+                    Projekt <b>Hallenbad Fellbach</b> – Fassaden<br/>gestaltung mit Qualität
                     </>
                 }
                 description="Modernes Wohnprojekt mit hochwertigen Fassadenarbeiten und kompletten Malerarbeiten."
