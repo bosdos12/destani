@@ -11,17 +11,30 @@ const page = () => {
           activeButtonList={["", "", "", "active"]}
         />
         <div className='container'>
-            <Hero
-                heading={
-                    <>
-                    Unsere <b>Projekte</b> – <b>Ergebnisse</b>, die für sich <b>sprechen</b>
-                    </>
-                }
-                description="Ein Einblick in unsere Arbeit: professionell ausgeführt, dauerhaft überzeugend."
-                imageSrc="/projekte/Video.webp"
-            />
-            <ProjekteGrid />
-            <Contact />
+
+
+          <div className='heroContainer'>
+            <div className="landing_title_container">
+              <p className="xx-large">Unsere <b>Projekte</b> - <b>Ergebnisse</b>, die für sich <b>sprechen</b></p>
+              <br />
+              <p className="large gray">Ein Einblick in unsere Arbeit: professionell ausgeführt, dauerhaft überzeugend.</p>
+            </div>
+          </div>
+
+          <div className="landingpage_video_banner">
+            <video
+              src="/projects/hallenbadfellbach/bannervid.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="video_background"
+            ></video>
+          </div>
+
+
+          <ProjekteGrid />
+          <Contact />
         </div>
         <Footer />
         <SlideBar />

@@ -60,8 +60,6 @@ p.very-large {
 }
 
 
-
-
 /* 
  ===== Header Start =====
  */
@@ -257,6 +255,12 @@ p.very-large {
     bottom: 0px;
   }
 }
+@media (max-width: 768px) {
+  .landing_title_container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
 /* 
  ===== Landing Title END =====
 */
@@ -304,8 +308,8 @@ p.very-large {
 }
 @media (max-width: 768px) {
   .landingpage_video_banner {
-    height: 400px;
-    border-radius: 32px;
+    height: 280px;
+    border-radius: 16px;
   }
 }
 /* 
@@ -476,6 +480,12 @@ p.very-large {
     width: 100%;
     margin-bottom: 32px;
   }
+
+
+  .title_and_subtext_container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 /* 
@@ -558,6 +568,11 @@ p.very-large {
 @media (min-width: 1024px) {
   .projectsGrid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .projectsGrid {
+    margin-top: 1rem;
   }
 }
 /* === Projekte Grid End */

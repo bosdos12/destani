@@ -12,7 +12,7 @@ const Description = () => {
         </p> */}
 
       <div className="landing_title_container">
-        <p className="very-large blue">
+        <p className="xx-large blue">
           Über Uns
         </p>
         <br />

@@ -20,14 +20,14 @@ const InfoCards = () => {
         </div>
         <div className='cards'>
           <Image src="/uberuns/icon3.svg" width={50} height={50} alt="Unsere Werte" className='icon' />
-          <p className='title'>Unsere <b>Mission</b></p>
+          <p className='title'>Unsere <b>Werte</b></p>
           <p className='description'>
             Wir stehen für Verlässlichkeit, Sauberkeit und Qualität. Echte Leidenschaft fürs Handwerk treibt uns täglich an
           </p>
         </div>
         <div className='cards'>
           <Image src="/uberuns/Vector.svg" width={50} height={50} alt="Unsere Arbeitsweise" className='icon' />
-          <p className='title'>Unsere <b>Mission</b></p>
+          <p className='title'>Unsere <b>Arbeitsweise</b></p>
           <p className='description'>
             Ob Neubau, Altbau oder Sanierung – wir realisieren jedes Projekt mit höchster Sorgfalt und einem klaren Fokus auf Qualität.
           </p>

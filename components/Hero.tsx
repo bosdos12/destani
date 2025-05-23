@@ -12,7 +12,7 @@ const Hero = ({ heading, description, imageSrc, isVideo }: HeroProps) => {
   return (
     <div className='heroContainer'>
       <div className="landing_title_container">
-        <p className="very-large">{heading}</p>
+        <p className="xx-large">{heading}</p>
         <br />
         <p className="large gray">{description}</p>
       </div>

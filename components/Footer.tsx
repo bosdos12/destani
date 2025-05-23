@@ -24,7 +24,7 @@ const Footer = () => {
             </p>
             <br />
             <p className="medium white linktext">
-              <a href="/uberuns" style={{color: "white", textDecoration: "none"}}>Über Uns</a>
+              <a href="/ueberuns" style={{color: "white", textDecoration: "none"}}>Über Uns</a>
             </p>
             <br />
             <p className="medium white linktext">
@@ -41,6 +41,14 @@ const Footer = () => {
             <br />
             <p className="medium white linktext">
               <a href="/" style={{color: "white", textDecoration: "none"}}>Datenschutzerklärung</a>
+            </p>
+            <br />
+            <p className="medium white linktext">
+              <a href="/" style={{color: "white", textDecoration: "none"}}>Impressum</a>
+            </p>
+            <br />
+            <p className="medium white linktext">
+              <a href="/" style={{color: "white", textDecoration: "none"}}>AGB.</a>
             </p>
           </div>
 

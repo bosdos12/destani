@@ -4,7 +4,7 @@ const LandingPageVideoBanner = () => {
   return (
     <div className="landingpage_video_banner">
         <video
-          src="/videos/fellbachringstrase.mp4"
+          src="/landingbannervid.mp4"
           autoPlay
           loop
           muted

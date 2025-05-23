@@ -38,7 +38,7 @@ const Header = ({
             <p className="large">Startseite</p>
           </Link>
 
-          <Link href="/uberuns" className={`header-navbuttons_container-single_navbutton ${activeButtonList[1]}`}
+          <Link href="/ueberuns" className={`header-navbuttons_container-single_navbutton ${activeButtonList[1]}`}
             style={{textDecoration: "none"}}
           >
             <p className="large">Über Uns</p>

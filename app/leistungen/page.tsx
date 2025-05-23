@@ -10,7 +10,9 @@ const page = () => {
         <Header
           activeButtonList={["", "", "active", ""]}
         />
-        <div className='container'>
+        <div className='container' style={{
+          width: "100%"
+        }}>
             <Hero
               heading={
                 <>

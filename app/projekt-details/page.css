@@ -36,7 +36,12 @@ p b {
   margin-left: auto;
   margin-right: auto;
 }
-
+@media (max-width: 768px) {
+  .heroImage {
+    height: 260px;
+    border-radius: 16px;
+  }
+}
 /* === END of Hero === */
 
 /* === Projecte Description === */

@@ -27,7 +27,7 @@ const SlideBar = () => {
         <p className="x-large white">Startseite</p>
       </Link>
 
-      <Link href="/uberuns" style={{textDecoration: "none", marginTop: "16px"}}>
+      <Link href="/ueberuns" style={{textDecoration: "none", marginTop: "16px"}}>
         <p className="x-large white">Über uns</p>
       </Link>
 

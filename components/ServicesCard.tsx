@@ -25,13 +25,13 @@ const services = [
     description: 'Effiziente Wärmedämmung für nachhaltige Energiekonzepte.',
   },
   {
-    icon: '/homepagegrid/maingrid5.svg',
+    icon: '/homepagegrid/trockenbauwhite.svg',
     title: 'Trockenbau',
     description: 'Flexible Raumgestaltung mit modernen Trockenbausystemen.',
     isHighlighted: true
   },
   {
-    icon: '/homepagegrid/maingrid6.svg',
+    icon: '/homepagegrid/malerarbeitenblue.svg',
     title: 'Malerarbeiten',
     description: 'Professionelle Anstriche für ein frisches und stimmiges Raumgefühl.',
   },
