@@ -38,18 +38,6 @@ const Footer = () => {
             <p className="medium white linktext">
               <a href="#kontaktform" style={{color: "white", textDecoration: "none"}}>Kontakt</a>
             </p>
-            <br />
-            <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}>Datenschutzerklärung</a>
-            </p>
-            <br />
-            <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}>Impressum</a>
-            </p>
-            <br />
-            <p className="medium white linktext">
-              <a href="/" style={{color: "white", textDecoration: "none"}}>AGB.</a>
-            </p>
           </div>
 
 
@@ -88,6 +76,21 @@ const Footer = () => {
           </div>
 
 
+        </div>
+
+        <div className="footer-bottom_row">
+
+            <p className="medium white linktext">
+              <a href="/datenschutz.pdf" style={{color: "white", textDecoration: "none"}}>Datenschutzerklärung</a>
+            </p>
+
+            <p className="medium white linktext">
+              <a href="/" style={{color: "white", textDecoration: "none"}}>Impressum</a>
+            </p>
+
+            <p className="medium white linktext">
+              <a href="/agb.pdf" style={{color: "white", textDecoration: "none"}}>AGB.</a>
+            </p>
         </div>
     </div>
   )

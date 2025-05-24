@@ -270,6 +270,7 @@ p b {
 
   .contact-form form {
     max-width: 100%;
+    padding: 0px;
   }
 }
 /* === End: Responsive (Contact) === */
