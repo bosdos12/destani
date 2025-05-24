@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="footer-bottom_row">
 
             <p className="medium white linktext">
-              <a href="/datenschutz.pdf" style={{color: "white", textDecoration: "none"}}>Datenschutzerklärung</a>
+              <a href="./datenschutz.pdf" style={{color: "white", textDecoration: "none"}}>Datenschutzerklärung</a>
             </p>
 
             <p className="medium white linktext">
@@ -89,7 +89,7 @@ const Footer = () => {
             </p>
 
             <p className="medium white linktext">
-              <a href="/agb.pdf" style={{color: "white", textDecoration: "none"}}>AGB.</a>
+              <a href="./agb.pdf" style={{color: "white", textDecoration: "none"}}>AGB.</a>
             </p>
         </div>
     </div>
